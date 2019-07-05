@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-image: url('http://i.imgur.com/O7ZWigt.png');
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 40px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+img{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  margin-top: 130px;
+}
+
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.pok-name{
+  margin-top: 200px;
+  position: absolute;
+  color:white;
+  margin-left: 440px;
+}
+
+.pokemon{
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/79f8b3e3-cfd3-428d-b182-da8389566cf5/d7u4dgk-d7d2a58d-0913-49dd-bfd5-06602e5fc700.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc5ZjhiM2UzLWNmZDMtNDI4ZC1iMTgyLWRhODM4OTU2NmNmNVwvZDd1NGRnay1kN2QyYTU4ZC0wOTEzLTQ5ZGQtYmZkNS0wNjYwMmU1ZmM3MDAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZyDdbY_q_YvAiwLlOIcnv9tV7zBJHfJ93E6knXnDfi4');
+}
